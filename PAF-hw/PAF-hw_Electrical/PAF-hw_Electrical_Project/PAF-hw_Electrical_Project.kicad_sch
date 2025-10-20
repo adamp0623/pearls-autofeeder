@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c6f2fd82-4900-4fc0-ba31-c37e114de4ed")
+	(paper "A4")
+	(title_block
+		(title "PAF-hw_Electrical_Schematic")
+		(date "2025-10-19")
+		(rev "A")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

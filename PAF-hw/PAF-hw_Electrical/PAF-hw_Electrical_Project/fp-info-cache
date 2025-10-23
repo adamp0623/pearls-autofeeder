@@ -1,4 +1,4 @@
-26724428712855600
+26726189906537180
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97460,6 +97460,13 @@ Schottky Diode
 0
 2
 2
+SamacSys_Parts
+SOT230P700X180-4N
+SOT-223_2021
+Integrated Circuit
+0
+4
+4
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

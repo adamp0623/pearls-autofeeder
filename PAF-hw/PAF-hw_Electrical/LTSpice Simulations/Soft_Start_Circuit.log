@@ -1,0 +1,42 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\adamp\Desktop\PAF - Pearl's Auto Feeder\PAF-hw\PAF-hw_Electrical\LTSpice Simulations\Soft_Start_Circuit.net
+Start Time: Sun Oct 26 12:40:48 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+C:\Users\adamp\Desktop\PAF - Pearl's Auto Feeder\PAF-hw\PAF-hw_Electrical\LTSpice Simulations\Soft_Start_Circuit.net(7): WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton. Increasing period to 1.00001.
+
+V2 N001 0 PULSE(0 1 0.01 5u 0 1 0.101 1) halfsine
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\adamp\Desktop\PAF - Pearl's Auto Feeder\PAF-hw\PAF-hw_Electrical\LTSpice Simulations\Soft_Start_Circuit.net(7): Limiting fall time to 2.03116e-16.
+
+V2 N001 0 PULSE(0 1 0.01 5u 0 1 0.101 1) halfsine
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.352 seconds.
+
+Files loaded:
+C:\Users\adamp\Desktop\PAF - Pearl's Auto Feeder\PAF-hw\PAF-hw_Electrical\LTSpice Simulations\Soft_Start_Circuit.net
+C:\Users\adamp\AppData\Local\LTspice\lib\cmp\standard.mos
+

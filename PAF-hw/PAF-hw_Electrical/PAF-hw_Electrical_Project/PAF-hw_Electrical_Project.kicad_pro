@@ -560,12 +560,66 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -613,6 +667,38 @@
     [
       "c6f2fd82-4900-4fc0-ba31-c37e114de4ed",
       "Root"
+    ],
+    [
+      "064fbe85-3fd0-4029-b95c-54568f0b8d10",
+      "MicroUSB"
+    ],
+    [
+      "8afa1431-7133-4707-82d6-fd44bc36f4d5",
+      "USB-C"
+    ],
+    [
+      "76c59462-8cae-41cf-8c0c-29480bf7eeee",
+      "USB-UART"
+    ],
+    [
+      "49dccb2c-6e5e-4746-b180-495aa35baa39",
+      "5V-3.3V LDO"
+    ],
+    [
+      "e5a66ef4-0b11-4296-bea3-b02f667a8b9d",
+      "Auto_Reset"
+    ],
+    [
+      "b5c1283c-596d-488f-b6e9-74335af19797",
+      "Reset and Boot Switches"
+    ],
+    [
+      "5b2f8001-20dc-46f2-9b58-1fe2aab2ff9d",
+      "Soft_Start"
+    ],
+    [
+      "811005fc-1332-43cf-b674-a351f28ff3c1",
+      "12V-5V SW REG"
     ]
   ],
   "text_variables": {}

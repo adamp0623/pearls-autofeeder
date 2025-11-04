@@ -2508,6 +2508,18 @@
 		(uuid c3adb594-0137-4991-a201-51a1f36314b2)
 	)
 	(rectangle
+		(start 204.47 13.97)
+		(end 275.59 66.04)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e0a985c0-5b5b-4c72-b4ca-6ba35a39e4cd)
+	)
+	(rectangle
 		(start 13.97 13.97)
 		(end 203.2 66.04)
 		(stroke
@@ -2530,6 +2542,26 @@
 			(type none)
 		)
 		(uuid f8be14ec-b6c5-4ad8-aa74-7f5e29aa7eac)
+	)
+	(text_box "Motor Driver\n"
+		(exclude_from_sim no)
+		(at 204.47 13.97 0)
+		(size 13.97 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "267e6c65-ccca-4cf9-8214-27e2e3139338")
 	)
 	(text_box "Reset and Boot Switches\n"
 		(exclude_from_sim no)
@@ -2915,7 +2947,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 82.55) (xy 34.29 82.55)
+			(xy 34.29 82.55) (xy 38.1 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2995,7 +3027,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 90.17) (xy 34.29 90.17)
+			(xy 34.29 90.17) (xy 38.1 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3025,7 +3057,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 102.87) (xy 24.13 106.68)
+			(xy 27.94 102.87) (xy 27.94 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3045,7 +3077,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 86.36) (xy 34.29 86.36)
+			(xy 34.29 86.36) (xy 38.1 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3115,7 +3147,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 93.98) (xy 34.29 93.98)
+			(xy 34.29 93.98) (xy 38.1 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3435,7 +3467,7 @@
 	)
 	(global_label "D_P"
 		(shape bidirectional)
-		(at 34.29 82.55 0)
+		(at 38.1 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3445,7 +3477,7 @@
 		)
 		(uuid "50db8986-5e57-4045-aae4-b1cfe4c44b3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.8941 82.55 0)
+			(at 45.7041 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +3643,7 @@
 	)
 	(global_label "D_N"
 		(shape bidirectional)
-		(at 34.29 86.36 0)
+		(at 38.1 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3621,7 +3653,7 @@
 		)
 		(uuid "98c23097-5d50-46a1-b93d-703b08928cfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.9546 86.36 0)
+			(at 45.7646 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +3995,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 34.29 90.17 270)
+		(at 38.1 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3971,7 +4003,7 @@
 		(dnp no)
 		(uuid "0a750c44-eeb1-4945-af71-f5f961f7deb1")
 		(property "Reference" "#PWR041"
-			(at 30.48 90.17 0)
+			(at 34.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +4012,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 38.1 90.1699 90)
+			(at 41.91 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +4021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 90.17 0)
+			(at 38.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +4030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 90.17 0)
+			(at 38.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +4039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 34.29 90.17 0)
+			(at 38.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +4579,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 34.29 93.98 270)
+		(at 38.1 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4556,7 +4588,7 @@
 		(fields_autoplaced yes)
 		(uuid "485c3afe-ce41-487d-9247-992d3bede24d")
 		(property "Reference" "#PWR042"
-			(at 30.48 93.98 0)
+			(at 34.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +4597,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 38.1 93.9799 90)
+			(at 41.91 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 93.98 0)
+			(at 38.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +4615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 93.98 0)
+			(at 38.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +4624,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 34.29 93.98 0)
+			(at 38.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +5187,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 106.68 0)
+		(at 27.94 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5164,7 +5196,7 @@
 		(fields_autoplaced yes)
 		(uuid "91b4bcd0-81be-439f-b550-4ae416985e63")
 		(property "Reference" "#PWR033"
-			(at 24.13 113.03 0)
+			(at 27.94 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,7 +5205,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 111.76 0)
+			(at 27.94 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5181,7 +5213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 106.68 0)
+			(at 27.94 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,7 +5222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 106.68 0)
+			(at 27.94 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5199,7 +5231,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 106.68 0)
+			(at 27.94 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6135,7 @@
 		)
 	)
 	(sheet
-		(at 17.78 78.74)
+		(at 21.59 78.74)
 		(size 12.7 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6119,7 +6151,7 @@
 		)
 		(uuid "064fbe85-3fd0-4029-b95c-54568f0b8d10")
 		(property "Sheetname" "MicroUSB"
-			(at 17.78 78.0284 0)
+			(at 21.59 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6128,7 +6160,7 @@
 			)
 		)
 		(property "Sheetfile" "MicroUSB.kicad_sch"
-			(at 17.78 103.4546 0)
+			(at 21.59 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6138,7 +6170,7 @@
 			)
 		)
 		(pin "D_P" bidirectional
-			(at 30.48 82.55 0)
+			(at 34.29 82.55 0)
 			(uuid "91749972-4195-4b1e-b48e-dbc1b04f2002")
 			(effects
 				(font
@@ -6148,7 +6180,7 @@
 			)
 		)
 		(pin "D_N" bidirectional
-			(at 30.48 86.36 0)
+			(at 34.29 86.36 0)
 			(uuid "dea224d5-5db8-4c40-a10b-2b36622aebff")
 			(effects
 				(font
@@ -6158,7 +6190,7 @@
 			)
 		)
 		(pin "5V" output
-			(at 30.48 90.17 0)
+			(at 34.29 90.17 0)
 			(uuid "7ef6349d-1fb4-4fff-b9c4-68d798edf853")
 			(effects
 				(font
@@ -6168,7 +6200,7 @@
 			)
 		)
 		(pin "VBUS" output
-			(at 30.48 93.98 0)
+			(at 34.29 93.98 0)
 			(uuid "0be20d75-7ddd-4aa1-b8f2-28294c380aba")
 			(effects
 				(font
@@ -6178,7 +6210,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 24.13 102.87 270)
+			(at 27.94 102.87 270)
 			(uuid "7de74cb4-c81e-4e78-9b26-25aa43cc4766")
 			(effects
 				(font
@@ -6636,6 +6668,49 @@
 			(project "PAF-hw_Electrical_Project"
 				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 24.13)
+		(size 35.56 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a2c812ec-7ff9-4770-aab6-2d11cc745218")
+		(property "Sheetname" "Stepper_Driver"
+			(at 215.9 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Stepper_Driver.kicad_sch"
+			(at 215.9 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PAF-hw_Electrical_Project"
+				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed"
+					(page "10")
 				)
 			)
 		)

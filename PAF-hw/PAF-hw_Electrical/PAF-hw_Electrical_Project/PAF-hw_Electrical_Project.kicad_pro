@@ -699,6 +699,10 @@
     [
       "811005fc-1332-43cf-b674-a351f28ff3c1",
       "12V-5V SW REG"
+    ],
+    [
+      "a2c812ec-7ff9-4770-aab6-2d11cc745218",
+      "Stepper_Driver"
     ]
   ],
   "text_variables": {}

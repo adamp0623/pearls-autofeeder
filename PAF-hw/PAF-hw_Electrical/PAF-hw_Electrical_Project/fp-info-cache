@@ -1,4 +1,4 @@
-26747326271611564
+26763186579387028
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61347,6 +61347,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+FFC2B28-24-G
+GCT_FFC2B28-24-G
+
+
+0
+26
+26
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -97440,8 +97447,29 @@ Connector
 4
 4
 SamacSys_Parts
+5025850470
+502585-0470-1
+Connector
+0
+6
+6
+SamacSys_Parts
+ASPI-4030S
+ASPI-4030S
+Inductor
+0
+2
+2
+SamacSys_Parts
 C0603
 C0603
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC1005X55N
+GCM15 L=1.0mm W=0.5mm T=0.5mm
 Capacitor
 0
 2
@@ -97461,6 +97489,13 @@ Capacitor
 2
 2
 SamacSys_Parts
+CAPC2012X95N
+CL21A226KPCLRNC
+Capacitor
+0
+2
+2
+SamacSys_Parts
 CAPC2012X145N
 CL21A106KAYNNNE
 Capacitor
@@ -97470,6 +97505,27 @@ Capacitor
 SamacSys_Parts
 CAPC3216X180N
 C3216 (160 thickness)
+Capacitor
+0
+2
+2
+SamacSys_Parts
+GCT_FFC2B28-24-G
+
+
+0
+26
+26
+SamacSys_Parts
+GRM15x
+GRM15x
+Capacitor
+0
+2
+2
+SamacSys_Parts
+GRT155R71H472KE01D
+GRT15 L=1.0mm W=0.5mm T=0.5mm
 Capacitor
 0
 2
@@ -97497,7 +97553,7 @@ Switch (4-Pin Push)
 4
 SamacSys_Parts
 QFN50P300X300X100-17N-D
-16 Lead 3x3 QFN,
+TS30011-M050QFNR
 Integrated Circuit
 0
 17
@@ -97530,6 +97586,13 @@ Schottky Diode
 0
 2
 2
+SamacSys_Parts
+SOP65P640X120-29N
+PWP0028M_2021
+Integrated Circuit
+0
+29
+29
 SamacSys_Parts
 SOT95P230X110-3N
 SOT23

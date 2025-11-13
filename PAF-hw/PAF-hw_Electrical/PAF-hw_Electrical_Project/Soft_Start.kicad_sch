@@ -1351,7 +1351,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 66.04) (xy 201.93 66.04)
+			(xy 167.64 66.04) (xy 194.31 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1523,7 +1523,7 @@
 	)
 	(hierarchical_label "12V_UNREG"
 		(shape output)
-		(at 201.93 66.04 0)
+		(at 194.31 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)

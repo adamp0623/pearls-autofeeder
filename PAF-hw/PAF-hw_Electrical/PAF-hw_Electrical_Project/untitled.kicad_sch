@@ -2,133 +2,9 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "dfe94af8-5c49-4b7e-82af-dea8adba5fc5")
+	(uuid "0c4f6a25-6cbf-47d9-b13e-f10d3764c55a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SamacSys_Parts:C0603C104K5RACTU"
 			(pin_names
 				(hide yes)
@@ -553,12 +429,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:NCP1117IST33T3G"
+		(symbol "SamacSys_Parts:MIC5365-1.2YC5-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at 39.37 7.62 0)
+				(at 24.13 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -566,8 +442,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "NCP1117IST33T3G"
-				(at 39.37 5.08 0)
+			(property "Value" "MIC5365-1.2YC5-TR"
+				(at 24.13 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -575,18 +451,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT230P700X180-4N"
-				(at 39.37 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF"
-				(at 39.37 -194.92 0)
+			(property "Footprint" "SOT65P210X110-5N"
+				(at 24.13 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -595,7 +461,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Output Current in Excess of 1.0 A; 1.2 V Maximum Dropout Voltage at 800 mA Over Temperature; Fixed Output Voltages of 1.8 V, 3.3 V and 5.0 V; Adjustable Output Voltage Option; Pb-Free Packages are Available; Operation to 20 V Input; Reference/Output Voltage Trimmed to +/- 1.0%; No Minimum Load Requirement for Fixed Voltage Output Devices; Current Limit, Safe Operating and Thermal Shutdown Protection"
+			(property "Datasheet" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580022"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "LDO Voltage Regulators Ultra Small Single 150mA LDO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -604,8 +480,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.8"
-				(at 39.37 -394.92 0)
+			(property "Height" "1.1"
+				(at 24.13 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -614,8 +490,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "onsemi"
-				(at 39.37 -494.92 0)
+			(property "Manufacturer_Name" "Microchip"
+				(at 24.13 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -624,8 +500,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "NCP1117IST33T3G"
-				(at 39.37 -594.92 0)
+			(property "Manufacturer_Part_Number" "MIC5365-1.2YC5-TR"
+				(at 24.13 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -634,8 +510,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "863-NCP1117IST33T3G"
-				(at 39.37 -694.92 0)
+			(property "Mouser Part Number" "998-MIC5365-1.2YC5TR"
+				(at 24.13 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -644,8 +520,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP1117IST33T3G?qs=iLbezkQI%252BsgWHC6Yi9bFVA%3D%3D"
-				(at 39.37 -794.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MIC5365-1.2YC5-TR?qs=U6T8BxXiZAVvXvc3oHLLAQ%3D%3D"
+				(at 24.13 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -654,8 +530,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "NCP1117IST33T3G"
-				(at 39.37 -894.92 0)
+			(property "Arrow Part Number" "MIC5365-1.2YC5-TR"
+				(at 24.13 -894.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -664,8 +540,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ncp1117ist33t3g/on-semiconductor?utm_currency=USD&region=nac"
-				(at 39.37 -994.92 0)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mic5365-1.2yc5-tr/microchip-technology?region=nac"
+				(at 24.13 -994.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -674,10 +550,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "NCP1117IST33T3G_1_1"
+			(symbol "MIC5365-1.2YC5-TR_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 38.1 -7.62)
+					(end 22.86 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -689,7 +565,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "ADJUST/GROUND"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -707,7 +583,7 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "OUTPUT"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -725,7 +601,7 @@
 				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
-					(name "INPUT_1"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -740,10 +616,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 43.18 0 180)
+				(pin no_connect line
+					(at 27.94 0 180)
 					(length 5.08)
-					(name "INPUT_2"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -758,55 +634,70 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:SML-LX0805SRC-TR"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "SamacSys_Parts:XC6206P282MR-G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "LED"
-				(at 12.7 8.89 0)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Value" "SML-LX0805SRC-TR"
-				(at 12.7 6.35 0)
+			(property "Value" "XC6206P282MR-G"
+				(at 24.13 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "SMLLX0805SRCTR"
-				(at 12.7 -93.65 0)
+			(property "Footprint" "SOT95P280X130-3N"
+				(at 24.13 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/244/SML-LX0805SRC-TR-1136150.pdf"
-				(at 12.7 -193.65 0)
+			(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
+				(at 24.13 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Lumex2.2 V Red LED 2012 (0805)  SMD, SML-LX0805SRC-TR"
+			(property "Description" "LDO Voltage Regulators 1uA Low Quiescent 3 Terminal, Low ESR Cap. Compatible, Voltage Regulator"
 				(at 0 0 0)
 				(effects
 					(font
@@ -815,177 +706,110 @@
 					(hide yes)
 				)
 			)
-			(property "Height" ""
-				(at 12.7 -393.65 0)
+			(property "Height" "1.3"
+				(at 24.13 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Lumex"
-				(at 12.7 -493.65 0)
+			(property "Manufacturer_Name" "Torex"
+				(at 24.13 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SML-LX0805SRC-TR"
-				(at 12.7 -593.65 0)
+			(property "Manufacturer_Part_Number" "XC6206P282MR-G"
+				(at 24.13 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "696-SML-0805SRCTR"
-				(at 12.7 -693.65 0)
+			(property "Mouser Part Number" "865-XC6206P282MR-G"
+				(at 24.13 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumex/SML-LX0805SRC-TR?qs=9HInCHf8eFjJ6a03vywsvw%3D%3D"
-				(at 12.7 -793.65 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6206P282MR-G?qs=AsjdqWjXhJ%2Fpd3DOBopSeA%3D%3D"
+				(at 24.13 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "SML-LX0805SRC-TR"
-				(at 12.7 -893.65 0)
+			(property "Arrow Part Number" ""
+				(at 24.13 -894.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sml-lx0805src-tr/lumex?utm_currency=USD&region=nac"
-				(at 12.7 -993.65 0)
+			(property "Arrow Price/Stock" ""
+				(at 24.13 -994.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "SML-LX0805SRC-TR_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
+			(symbol "XC6206P282MR-G_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 2.54) (xy 6.35 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
 					(at 0 0 0)
-					(length 2.54)
-					(name "K"
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1001,16 +825,16 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1022,468 +846,459 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 92.71 106.68)
-		(end 154.94 128.27)
+	(junction
+		(at 91.44 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "071af523-09ae-4d80-981b-f95c2dbb8dd4")
+	)
+	(junction
+		(at 152.4 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22113172-806b-4e1c-9b4e-4e3e5094ac44")
+	)
+	(junction
+		(at 166.37 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27f61e49-69a4-4377-bba7-00ac780d66a9")
+	)
+	(junction
+		(at 152.4 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4033d027-dffa-43df-baf7-af93b9dda328")
+	)
+	(junction
+		(at 91.44 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5040577b-2cb6-4a7d-a348-e82a9e9984c4")
+	)
+	(junction
+		(at 138.43 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5d23f9d-378c-45d2-8b03-fba5574f5b88")
+	)
+	(junction
+		(at 166.37 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5ea9d8d-8aae-4563-b0fd-51a879857430")
+	)
+	(junction
+		(at 152.4 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9b7995e-487f-4abc-bbe1-0cfdcf3f562d")
+	)
+	(junction
+		(at 152.4 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8d14c4c-60ec-4998-8f03-0c2361999921")
+	)
+	(wire
+		(pts
+			(xy 152.4 78.74) (xy 135.89 78.74)
+		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(fill
-			(type none)
-		)
-		(uuid 0bdc6e4a-46b4-4825-aaae-cfd8cab108a3)
+		(uuid "00edd82d-0841-4f3e-a92b-c3de63dda88b")
 	)
-	(rectangle
-		(start 92.71 59.69)
-		(end 208.28 128.27)
+	(wire
+		(pts
+			(xy 152.4 97.79) (xy 166.37 97.79)
+		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(fill
-			(type none)
-		)
-		(uuid 852727d6-d4c3-4a3d-94de-cade0c764efe)
+		(uuid "066472dd-57ed-4b26-bef6-8782bb0e1f7b")
 	)
-	(text_box "Power Indication LED \n\nVf = 1.7V\nVin = 3.3V\nR = 5.1k\nI = (3.3 - 1.7)/5100 = 0.3 mA\nLED kept dim to limit excessive current draw"
-		(exclude_from_sim no)
-		(at 154.94 106.68 0)
-		(size 27.94 21.59)
-		(margins 0.9525 0.9525 0.9525 0.9525)
+	(wire
+		(pts
+			(xy 105.41 113.03) (xy 107.95 113.03)
+		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
-		(fill
-			(type none)
+		(uuid "0e1023d9-b372-4a96-90ba-f412df576e3e")
+	)
+	(wire
+		(pts
+			(xy 152.4 128.27) (xy 166.37 128.27)
 		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dfcc3b9-eae6-4762-bd03-20b718d5a9fd")
+	)
+	(wire
+		(pts
+			(xy 152.4 82.55) (xy 152.4 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2375e7-9671-4c5e-98b5-2e2cb14efd13")
+	)
+	(wire
+		(pts
+			(xy 105.41 113.03) (xy 105.41 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3832df32-f8a2-4cf7-a9c9-75bce8ed5652")
+	)
+	(wire
+		(pts
+			(xy 152.4 113.03) (xy 152.4 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9877ad-9884-43e7-a516-9d2da0ea57b8")
+	)
+	(wire
+		(pts
+			(xy 152.4 128.27) (xy 152.4 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4318ffc6-1020-42c9-bfa3-12d87f15d8cd")
+	)
+	(wire
+		(pts
+			(xy 166.37 125.73) (xy 166.37 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d6e220-80b3-4b4b-a41c-37e5e3c3e2cd")
+	)
+	(wire
+		(pts
+			(xy 105.41 118.11) (xy 138.43 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d2a3c0-5ffd-4694-b0c3-91d1d5191cdf")
+	)
+	(wire
+		(pts
+			(xy 152.4 110.49) (xy 166.37 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c04b45-a305-4981-9804-6904147245b0")
+	)
+	(wire
+		(pts
+			(xy 152.4 78.74) (xy 166.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a10d7af-3e82-4d2b-90a9-440ad90f9104")
+	)
+	(wire
+		(pts
+			(xy 91.44 107.95) (xy 91.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da8ca85-eaa0-4b70-8bf4-98dd8bc230dc")
+	)
+	(wire
+		(pts
+			(xy 166.37 82.55) (xy 166.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918585e1-b347-44e3-919e-6525b2f7772f")
+	)
+	(wire
+		(pts
+			(xy 152.4 97.79) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9265e4dd-6c14-40b9-97d5-79c4f35a513d")
+	)
+	(wire
+		(pts
+			(xy 138.43 118.11) (xy 138.43 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d0fcb9-5b8c-4bf8-aa5e-d28dff93c850")
+	)
+	(wire
+		(pts
+			(xy 91.44 107.95) (xy 107.95 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9796188f-7bac-4e20-a3f0-d88b64a35b54")
+	)
+	(wire
+		(pts
+			(xy 166.37 95.25) (xy 166.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24fd050-d760-4831-9402-f137d17dc21a")
+	)
+	(wire
+		(pts
+			(xy 91.44 127) (xy 91.44 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfaa547-4481-4e9c-8007-f2fb1f17103b")
+	)
+	(wire
+		(pts
+			(xy 166.37 110.49) (xy 173.99 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97a7486-a0f0-473e-a825-ad568f89c4aa")
+	)
+	(wire
+		(pts
+			(xy 86.36 81.28) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc0bcd8e-4b51-4924-bd7f-d104b12b1706")
+	)
+	(wire
+		(pts
+			(xy 152.4 129.54) (xy 152.4 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9dcf491-f208-44fb-9c03-56f649927b6e")
+	)
+	(wire
+		(pts
+			(xy 152.4 99.06) (xy 152.4 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9dab3b-4c38-4c0d-9acb-310cb45e7e2d")
+	)
+	(wire
+		(pts
+			(xy 135.89 110.49) (xy 138.43 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3d4619-ea56-4206-a58b-398f1db64973")
+	)
+	(wire
+		(pts
+			(xy 166.37 113.03) (xy 166.37 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2094342-4ac1-4aa3-9ff5-ab71c438b87e")
+	)
+	(wire
+		(pts
+			(xy 106.68 110.49) (xy 107.95 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67be20d-d917-449b-8ed5-247e170eab96")
+	)
+	(wire
+		(pts
+			(xy 138.43 110.49) (xy 152.4 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3be30c8-8e07-45e3-aac8-d654cc7690e9")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 107.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3bfced0-3e3d-49bd-95a3-b6dcbab1fa85")
+	)
+	(wire
+		(pts
+			(xy 166.37 78.74) (xy 173.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfebb69-ab5c-4b89-94f2-427ae8e598d5")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 91.44 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc17c4eb-c859-4190-9c54-92a1d9b5864a")
+	)
+	(hierarchical_label "2.8V"
+		(shape output)
+		(at 173.99 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify left)
 		)
-		(uuid "969178a5-aa12-4ffb-bf93-b6b0cdeef4d1")
-	)
-	(text_box "5V to 3.3V LDO\n"
-		(exclude_from_sim no)
-		(at 106.68 59.69 0)
-		(size 19.05 3.81)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "9f067be2-ca63-4740-91fb-8066f8683fb9")
-	)
-	(junction
-		(at 135.89 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c4a97c3-b283-4a51-a2c1-d4a760942076")
-	)
-	(junction
-		(at 99.06 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71998e8f-6f35-403d-8c1c-f1bcb2330960")
-	)
-	(junction
-		(at 165.1 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a75874e5-fe10-4446-b258-175d514384ca")
-	)
-	(junction
-		(at 180.34 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c86d6278-7962-4116-a932-1467ac3c6e2d")
-	)
-	(junction
-		(at 114.3 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d16a68f7-433a-420a-a5bf-5f840a6e9c04")
-	)
-	(junction
-		(at 165.1 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d231ea22-14f7-47bf-9642-1d044225bbce")
-	)
-	(junction
-		(at 114.3 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da3927dc-f600-4869-9cee-c24ed982ce5e")
-	)
-	(wire
-		(pts
-			(xy 104.14 116.84) (xy 110.49 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11b07a38-1e90-4afa-beec-9ac24b128f4a")
-	)
-	(wire
-		(pts
-			(xy 160.02 76.2) (xy 165.1 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2278a0a5-4080-4cd5-b86d-8ceda920b220")
-	)
-	(wire
-		(pts
-			(xy 99.06 97.79) (xy 99.06 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4279c7de-3ec7-4bed-ab12-567405864e52")
-	)
-	(wire
-		(pts
-			(xy 132.08 104.14) (xy 135.89 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f1f4421-f2e2-49ad-ae87-c5f129a34452")
-	)
-	(wire
-		(pts
-			(xy 165.1 76.2) (xy 165.1 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "540f4b07-cc7c-4ca7-beae-1a63f9731001")
-	)
-	(wire
-		(pts
-			(xy 138.43 116.84) (xy 144.78 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f26165b-421c-4008-b422-072be03aefd8")
-	)
-	(wire
-		(pts
-			(xy 165.1 97.79) (xy 165.1 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "695e2bed-65e0-4669-998f-e0c6bacd39f0")
-	)
-	(wire
-		(pts
-			(xy 99.06 81.28) (xy 114.3 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d246357-5266-4b0b-9859-c560d5b60301")
-	)
-	(wire
-		(pts
-			(xy 165.1 76.2) (xy 180.34 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73f04d25-24c0-4399-a024-a785f3f80a93")
-	)
-	(wire
-		(pts
-			(xy 113.03 76.2) (xy 116.84 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b3214bb-b686-4be3-9a78-eaaf13a15b55")
-	)
-	(wire
-		(pts
-			(xy 180.34 97.79) (xy 180.34 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83696f6f-d114-43ef-96fb-7a4b3cf8402e")
-	)
-	(wire
-		(pts
-			(xy 114.3 100.33) (xy 135.89 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bf91fc6-902e-4f09-8211-9b4d16b3f139")
-	)
-	(wire
-		(pts
-			(xy 135.89 100.33) (xy 165.1 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c35274d-eb12-46e8-a510-bdc0c94ab73a")
-	)
-	(wire
-		(pts
-			(xy 114.3 81.28) (xy 114.3 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99952122-1023-43d8-87bb-378858d2d3ac")
-	)
-	(wire
-		(pts
-			(xy 99.06 81.28) (xy 99.06 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e58cbb2-01f6-4d33-afa9-4a009a1782b7")
-	)
-	(wire
-		(pts
-			(xy 165.1 100.33) (xy 180.34 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2bd3568-f65f-49da-862f-2d2dfc65c68f")
-	)
-	(wire
-		(pts
-			(xy 99.06 100.33) (xy 114.3 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0e17cc4-c53f-488e-a81c-3a5ab86d46b4")
-	)
-	(wire
-		(pts
-			(xy 180.34 85.09) (xy 180.34 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b97c9bd8-537e-4d52-aae5-cbece3621286")
-	)
-	(wire
-		(pts
-			(xy 110.49 78.74) (xy 116.84 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc723462-90c5-4b78-958c-ed5136874ca3")
-	)
-	(wire
-		(pts
-			(xy 114.3 81.28) (xy 116.84 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cec6810d-9424-496b-8a08-dbc5c9c9fb3b")
-	)
-	(wire
-		(pts
-			(xy 187.96 76.2) (xy 180.34 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d564d9c6-2cf5-446f-bf17-2ead6d4f209f")
-	)
-	(wire
-		(pts
-			(xy 135.89 100.33) (xy 135.89 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8726548-7eca-4f9a-9620-6197906f281f")
-	)
-	(wire
-		(pts
-			(xy 99.06 69.85) (xy 99.06 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbc04625-ab49-4ab2-a588-dc4b5e27c503")
-	)
-	(wire
-		(pts
-			(xy 113.03 73.66) (xy 113.03 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8ac85da-ab8d-4980-9d5a-0d39e1386aac")
-	)
-	(wire
-		(pts
-			(xy 114.3 97.79) (xy 114.3 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee5ad88c-fa55-4aed-b24a-5683452c449f")
-	)
-	(wire
-		(pts
-			(xy 118.11 116.84) (xy 123.19 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc650f79-9b59-413f-9854-41ce17c751ab")
-	)
-	(label "LDO_OUT"
-		(at 167.64 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a38dd93-22be-4d44-a2da-40071fd32025")
-	)
-	(label "LDO_OUT"
-		(at 104.14 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c04f1dfd-c919-483c-99ee-cb1151bea19b")
-	)
-	(label "LDO_OUT"
-		(at 110.49 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d90aaac0-380e-4d85-b6d1-6c9293b0cdf7")
+		(uuid "1d41aa1f-e477-4c77-8a3f-8db9fc345d27")
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 132.08 104.14 180)
+		(at 135.89 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "322f7a74-18f6-4cd3-9c5f-d812cd4b7687")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 91.44 133.35 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "3422afe9-34fd-442d-9e48-1376e82c6ab6")
+		(uuid "46147b7d-1b9e-4c99-bf57-807d642b2be6")
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 144.78 116.84 0)
+		(at 152.4 129.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dcd40bb-b28f-4a3c-99b2-9e7ea8049a2b")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 106.68 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5fa3e1e4-4152-4474-ac9c-a7a8bee963eb")
+	)
+	(hierarchical_label "1.2V"
+		(shape output)
+		(at 173.99 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "9572a163-344d-47b8-a2f5-172c13018386")
+		(uuid "b0e8cc90-9a5f-4453-a0f5-7c2c1aafada4")
 	)
 	(hierarchical_label "3.3V"
-		(shape output)
-		(at 187.96 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ae0dbea6-668e-406d-bc71-4901dca880fd")
-	)
-	(hierarchical_label "5V"
 		(shape input)
-		(at 99.06 69.85 90)
+		(at 86.36 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "c5b7bf7b-7349-4d09-976e-4502000d2e12")
+		(uuid "c0a69dc2-95e3-44d0-b206-147a35bd93b4")
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 113.03 73.66 90)
+		(at 152.4 99.06 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "f5dc361c-ce8d-45ef-8253-d1abb0d0f2bd")
+		(uuid "feaa8451-024e-482d-9012-37e9b5e6cb54")
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:CL21A106KAYNNNE")
-		(at 99.06 85.09 270)
+		(at 152.4 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0225083b-2e60-4bdf-bd1f-98a60e91d911")
-		(property "Reference" "C12"
-			(at 102.87 90.1699 90)
+		(uuid "0addfd61-dca2-4afd-b393-b2853fa59943")
+		(property "Reference" "C33"
+			(at 156.21 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +1307,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 102.87 92.7099 90)
+			(at 156.21 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +1316,7 @@
 			)
 		)
 		(property "Footprint" "CAPC2012X145N"
-			(at 110.998 83.82 0)
+			(at 164.338 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1511,7 +1326,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/6a45835c9b7400e9b49c55c38a8ff4a2.pdf"
-			(at -97.13 93.98 0)
+			(at -43.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,7 +1336,7 @@
 			)
 		)
 		(property "Description" "Samsung"
-			(at 99.06 85.09 0)
+			(at 152.4 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1345,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at -297.13 93.98 0)
+			(at -243.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +1355,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SAMSUNG"
-			(at -397.13 93.98 0)
+			(at -343.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,7 +1365,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL21A106KAYNNNE"
-			(at -497.13 93.98 0)
+			(at -443.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,7 +1375,7 @@
 			)
 		)
 		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
-			(at -597.13 93.98 0)
+			(at -543.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1385,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D"
-			(at -697.13 93.98 0)
+			(at -643.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +1395,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CL21A106KAYNNNE"
-			(at -797.13 93.98 0)
+			(at -743.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,7 +1405,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl21a106kaynnne/samsung-electro-mechanics?utm_currency=USD&region=nac"
-			(at -897.13 93.98 0)
+			(at -843.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,60 +1415,48 @@
 			)
 		)
 		(pin "1"
-			(uuid "eaa0d526-83c0-44fb-b80a-7de830b0828f")
+			(uuid "d3ea0d92-dd6c-4040-909c-20c1cba9a018")
 		)
 		(pin "2"
-			(uuid "117997bf-59d7-47dd-bd8f-f54455868a36")
+			(uuid "b536dba2-a038-4aa8-943e-7757cc943df2")
 		)
 		(instances
 			(project "PAF-hw_Electrical_Project"
-				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed/49dccb2c-6e5e-4746-b180-495aa35baa39"
-					(reference "C12")
+				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed/c4490af3-d396-4dc2-960d-5a3763c3fa5c"
+					(reference "C33")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:C0603C104K5RACTU")
-		(at 180.34 85.09 270)
+		(lib_id "SamacSys_Parts:MIC5365-1.2YC5-TR")
+		(at 107.95 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "08db4e0c-442e-4192-9a80-f62408f382f8")
-		(property "Reference" "C25"
-			(at 184.15 90.1699 90)
+		(uuid "1c282a6a-bfed-428f-adc3-19d82c4d53b0")
+		(property "Reference" "IC6"
+			(at 121.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 184.15 92.7099 90)
+		(property "Value" "MIC5365-1.2YC5-TR"
+			(at 121.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "C0603"
-			(at 84.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at -15.85 93.98 0)
+		(property "Footprint" "SOT65P210X110-5N"
+			(at 132.08 202.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,17 +1465,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 5 GOhms, 7.3 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 80"
-			(at 180.34 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.87"
-			(at -215.85 93.98 0)
+		(property "Datasheet" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580022"
+			(at 132.08 302.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,8 +1475,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "KEMET"
-			(at -315.85 93.98 0)
+		(property "Description" "LDO Voltage Regulators Ultra Small Single 150mA LDO"
+			(at 107.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 132.08 502.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,8 +1494,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at -415.85 93.98 0)
+		(property "Manufacturer_Name" "Microchip"
+			(at 132.08 602.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,8 +1504,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0603C104K5R"
-			(at -515.85 93.98 0)
+		(property "Manufacturer_Part_Number" "MIC5365-1.2YC5-TR"
+			(at 132.08 702.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,8 +1514,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K5RACTU?qs=l5k%252BbMnNDkkVcnZPSAaaiQ%3D%3D"
-			(at -615.85 93.98 0)
+		(property "Mouser Part Number" "998-MIC5365-1.2YC5TR"
+			(at 132.08 802.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,8 +1524,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "C0603C104K5RACTU"
-			(at -715.85 93.98 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MIC5365-1.2YC5-TR?qs=U6T8BxXiZAVvXvc3oHLLAQ%3D%3D"
+			(at 132.08 902.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,8 +1534,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c0603c104k5ractu/kemet-corporation?utm_currency=USD&region=nac"
-			(at -815.85 93.98 0)
+		(property "Arrow Part Number" "MIC5365-1.2YC5-TR"
+			(at 132.08 1002.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,50 +1544,8 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "0b333951-cec4-49d0-85cc-31cfb1b6f1ca")
-		)
-		(pin "1"
-			(uuid "67c6ecc0-4dca-4bbb-9431-291629163cc0")
-		)
-		(instances
-			(project "PAF-hw_Electrical_Project"
-				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed/49dccb2c-6e5e-4746-b180-495aa35baa39"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:CL21A106KAYNNNE")
-		(at 165.1 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "738aa67b-0af3-4847-b8eb-8b0a2c37338b")
-		(property "Reference" "C24"
-			(at 168.91 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 168.91 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CAPC2012X145N"
-			(at 177.038 83.82 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mic5365-1.2yc5-tr/microchip-technology?region=nac"
+			(at 132.08 1102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,285 +1553,79 @@
 				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/6a45835c9b7400e9b49c55c38a8ff4a2.pdf"
-			(at -31.09 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Samsung"
-			(at 165.1 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at -231.09 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "SAMSUNG"
-			(at -331.09 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21A106KAYNNNE"
-			(at -431.09 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
-			(at -531.09 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D"
-			(at -631.09 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CL21A106KAYNNNE"
-			(at -731.09 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl21a106kaynnne/samsung-electro-mechanics?utm_currency=USD&region=nac"
-			(at -831.09 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93e80d4d-8e8c-4277-a7d7-bb790644cc63")
-		)
-		(pin "2"
-			(uuid "76de8671-6d04-4bf5-af7b-9c953e3df681")
-		)
-		(instances
-			(project "PAF-hw_Electrical_Project"
-				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed/49dccb2c-6e5e-4746-b180-495aa35baa39"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:NCP1117IST33T3G")
-		(at 116.84 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fdd62d0-8d6b-4dcc-a0d3-e4fdc4946797")
-		(property "Reference" "IC2"
-			(at 138.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP1117IST33T3G"
-			(at 138.43 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT230P700X180-4N"
-			(at 156.21 171.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF"
-			(at 156.21 271.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Output Current in Excess of 1.0 A; 1.2 V Maximum Dropout Voltage at 800 mA Over Temperature; Fixed Output Voltages of 1.8 V, 3.3 V and 5.0 V; Adjustable Output Voltage Option; Pb-Free Packages are Available; Operation to 20 V Input; Reference/Output Voltage Trimmed to +/- 1.0%; No Minimum Load Requirement for Fixed Voltage Output Devices; Current Limit, Safe Operating and Thermal Shutdown Protection"
-			(at 116.84 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.8"
-			(at 156.21 471.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 156.21 571.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "NCP1117IST33T3G"
-			(at 156.21 671.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-NCP1117IST33T3G"
-			(at 156.21 771.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP1117IST33T3G?qs=iLbezkQI%252BsgWHC6Yi9bFVA%3D%3D"
-			(at 156.21 871.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "NCP1117IST33T3G"
-			(at 156.21 971.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ncp1117ist33t3g/on-semiconductor?utm_currency=USD&region=nac"
-			(at 156.21 1071.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e27c6b56-8d7e-44c2-9e7a-9066236a4a5c")
-		)
-		(pin "1"
-			(uuid "aecc3cd5-a964-4a5d-a8ba-d689b4003a68")
-		)
-		(pin "2"
-			(uuid "0a0ba85f-bd0f-4b15-8760-c7532daddb2a")
 		)
 		(pin "4"
-			(uuid "f2cdb7b6-254a-4227-b739-d65268baae26")
+			(uuid "14eeee24-91e3-480a-8870-9e52004d01c9")
+		)
+		(pin "1"
+			(uuid "f320b1a7-09a0-4ef2-9159-36e307f8aee2")
+		)
+		(pin "2"
+			(uuid "0b6c7d7c-be8b-46ee-9226-4b24c6f0a90d")
+		)
+		(pin "3"
+			(uuid "8a32962b-8c2f-4340-9e2d-840b052af6d6")
+		)
+		(pin "5"
+			(uuid "f0ba5f0e-7170-4638-8a3f-95d537d1550d")
 		)
 		(instances
-			(project "PAF-hw_Electrical_Project"
-				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed/49dccb2c-6e5e-4746-b180-495aa35baa39"
-					(reference "IC2")
+			(project ""
+				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed/c4490af3-d396-4dc2-960d-5a3763c3fa5c"
+					(reference "IC6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 114.3 116.84 90)
+		(lib_id "SamacSys_Parts:XC6206P282MR-G")
+		(at 135.89 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bee30de6-28d6-45ea-ac81-36191176ad4b")
-		(property "Reference" "R5"
-			(at 114.3 110.49 90)
+		(uuid "25e78399-37f2-49f9-87b1-eea66053ec8e")
+		(property "Reference" "IC5"
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 114.3 113.03 90)
+		(property "Value" "XC6206P282MR-G"
+			(at 121.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 118.618 90)
+		(property "Footprint" "SOT95P280X130-3N"
+			(at 111.76 -13.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
+			(at 111.76 -113.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LDO Voltage Regulators 1uA Low Quiescent 3 Terminal, Low ESR Cap. Compatible, Voltage Regulator"
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,8 +1633,143 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 114.3 116.84 0)
+		(property "Height" "1.3"
+			(at 111.76 -313.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Torex"
+			(at 111.76 -413.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XC6206P282MR-G"
+			(at 111.76 -513.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "865-XC6206P282MR-G"
+			(at 111.76 -613.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6206P282MR-G?qs=AsjdqWjXhJ%2Fpd3DOBopSeA%3D%3D"
+			(at 111.76 -713.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 111.76 -813.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 111.76 -913.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "447dc6d1-8843-4e23-bc9f-f2ffc6035ff0")
+		)
+		(pin "1"
+			(uuid "16be833e-fd54-4006-8efb-3ea3dddc6bec")
+		)
+		(pin "3"
+			(uuid "10debeb8-338c-482f-8181-1bd19eae4c7a")
+		)
+		(instances
+			(project "PAF-hw_Electrical_Project"
+				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed/c4490af3-d396-4dc2-960d-5a3763c3fa5c"
+					(reference "IC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:CL21A106KAYNNNE")
+		(at 152.4 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3764e8bf-1aaf-4d7c-bcd9-b7a517fa4259")
+		(property "Reference" "C34"
+			(at 156.21 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 156.21 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPC2012X145N"
+			(at 164.338 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/6a45835c9b7400e9b49c55c38a8ff4a2.pdf"
+			(at -43.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samsung"
+			(at 152.4 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,25 +1777,86 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 114.3 116.84 0)
+		(property "Height" "1.45"
+			(at -243.79 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at -343.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21A106KAYNNNE"
+			(at -443.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
+			(at -543.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D"
+			(at -643.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CL21A106KAYNNNE"
+			(at -743.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl21a106kaynnne/samsung-electro-mechanics?utm_currency=USD&region=nac"
+			(at -843.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "837bf815-225b-4d7d-8ace-00f437cdb775")
+			(uuid "098e3e4f-40b6-4acf-9829-ee1dee4fb5e8")
 		)
 		(pin "2"
-			(uuid "f15f182d-a19d-488b-a444-e16342adcdc5")
+			(uuid "733a320e-9e17-40c6-b553-cd3f3a732c08")
 		)
 		(instances
 			(project "PAF-hw_Electrical_Project"
-				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed/49dccb2c-6e5e-4746-b180-495aa35baa39"
-					(reference "R5")
+				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed/c4490af3-d396-4dc2-960d-5a3763c3fa5c"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -2113,16 +1864,16 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:C0603C104K5RACTU")
-		(at 114.3 85.09 270)
+		(at 166.37 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eca45ffc-da18-44ea-8bdc-fc10f556c51a")
-		(property "Reference" "C13"
-			(at 118.11 90.1699 90)
+		(uuid "81112598-1fd3-40c7-8e24-f2dd7d9e5e6a")
+		(property "Reference" "C35"
+			(at 170.18 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,7 +1882,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 118.11 92.7099 90)
+			(at 170.18 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,7 +1891,7 @@
 			)
 		)
 		(property "Footprint" "C0603"
-			(at 18.11 93.98 0)
+			(at 70.18 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,7 +1901,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at -81.89 93.98 0)
+			(at -29.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,7 +1911,7 @@
 			)
 		)
 		(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 5 GOhms, 7.3 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 80"
-			(at 114.3 85.09 0)
+			(at 166.37 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,7 +1920,7 @@
 			)
 		)
 		(property "Height" "0.87"
-			(at -281.89 93.98 0)
+			(at -229.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,7 +1930,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at -381.89 93.98 0)
+			(at -329.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +1940,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
-			(at -481.89 93.98 0)
+			(at -429.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +1950,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-C0603C104K5R"
-			(at -581.89 93.98 0)
+			(at -529.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,7 +1960,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K5RACTU?qs=l5k%252BbMnNDkkVcnZPSAaaiQ%3D%3D"
-			(at -681.89 93.98 0)
+			(at -629.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,7 +1970,7 @@
 			)
 		)
 		(property "Arrow Part Number" "C0603C104K5RACTU"
-			(at -781.89 93.98 0)
+			(at -729.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +1980,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c0603c104k5ractu/kemet-corporation?utm_currency=USD&region=nac"
-			(at -881.89 93.98 0)
+			(at -829.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,68 +1990,211 @@
 			)
 		)
 		(pin "2"
-			(uuid "f23fc145-41c9-42b6-b809-5e218667abc2")
+			(uuid "59e59120-d0c7-445c-b4b7-a472360b39cb")
 		)
 		(pin "1"
-			(uuid "999501d4-e14d-482c-a850-acb19e9e7a14")
+			(uuid "0751af48-469a-4583-8877-30c9a94c082c")
 		)
 		(instances
 			(project "PAF-hw_Electrical_Project"
-				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed/49dccb2c-6e5e-4746-b180-495aa35baa39"
-					(reference "C13")
+				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed/c4490af3-d396-4dc2-960d-5a3763c3fa5c"
+					(reference "C35")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:SML-LX0805SRC-TR")
-		(at 138.43 116.84 180)
+		(lib_id "SamacSys_Parts:CL21A106KAYNNNE")
+		(at 91.44 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94c82984-6f7a-470a-b9a7-bf12ff7859e0")
+		(property "Reference" "C32"
+			(at 84.328 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 86.868 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAPC2012X145N"
+			(at 103.378 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/6a45835c9b7400e9b49c55c38a8ff4a2.pdf"
+			(at -104.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samsung"
+			(at 91.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at -304.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at -404.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21A106KAYNNNE"
+			(at -504.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
+			(at -604.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D"
+			(at -704.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CL21A106KAYNNNE"
+			(at -804.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl21a106kaynnne/samsung-electro-mechanics?utm_currency=USD&region=nac"
+			(at -904.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29f0d31d-eff2-4c48-91c7-74ac0168c5ab")
+		)
+		(pin "2"
+			(uuid "d5b07cfe-3f6b-4086-9e0c-3888fd8d7b1d")
+		)
+		(instances
+			(project "PAF-hw_Electrical_Project"
+				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed/c4490af3-d396-4dc2-960d-5a3763c3fa5c"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:C0603C104K5RACTU")
+		(at 166.37 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f52aac45-c9a7-4048-8e57-47946bd87490")
-		(property "Reference" "LED3"
-			(at 130.81 109.22 0)
+		(uuid "e9829913-9a3d-4281-a2f6-a392b9dddb23")
+		(property "Reference" "C36"
+			(at 170.18 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "RED LED"
-			(at 130.81 111.76 0)
+		(property "Value" "0.1uF"
+			(at 170.18 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SMLLX0805SRCTR"
-			(at 125.73 23.19 0)
+		(property "Footprint" "C0603"
+			(at 70.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/244/SML-LX0805SRC-TR-1136150.pdf"
-			(at 125.73 -76.81 0)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at -29.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Lumex2.2 V Red LED 2012 (0805)  SMD, SML-LX0805SRC-TR"
-			(at 138.43 116.84 0)
+		(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 5 GOhms, 7.3 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 80"
+			(at 166.37 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,86 +2202,86 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 125.73 -276.81 0)
+		(property "Height" "0.87"
+			(at -229.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Lumex"
-			(at 125.73 -376.81 0)
+		(property "Manufacturer_Name" "KEMET"
+			(at -329.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SML-LX0805SRC-TR"
-			(at 125.73 -476.81 0)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at -429.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "696-SML-0805SRCTR"
-			(at 125.73 -576.81 0)
+		(property "Mouser Part Number" "80-C0603C104K5R"
+			(at -529.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumex/SML-LX0805SRC-TR?qs=9HInCHf8eFjJ6a03vywsvw%3D%3D"
-			(at 125.73 -676.81 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K5RACTU?qs=l5k%252BbMnNDkkVcnZPSAaaiQ%3D%3D"
+			(at -629.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "SML-LX0805SRC-TR"
-			(at 125.73 -776.81 0)
+		(property "Arrow Part Number" "C0603C104K5RACTU"
+			(at -729.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sml-lx0805src-tr/lumex?utm_currency=USD&region=nac"
-			(at 125.73 -876.81 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c0603c104k5ractu/kemet-corporation?utm_currency=USD&region=nac"
+			(at -829.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "f67466af-6b69-4622-862a-69c2dc32a44b")
 		)
 		(pin "2"
-			(uuid "cc6a04c8-d9de-444f-8fbe-f4f43c5c38b0")
+			(uuid "26debb24-457b-43bb-996a-74dc6818ac74")
+		)
+		(pin "1"
+			(uuid "26de730d-bc93-4d1f-bcb8-a4472d278f16")
 		)
 		(instances
 			(project "PAF-hw_Electrical_Project"
-				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed/49dccb2c-6e5e-4746-b180-495aa35baa39"
-					(reference "LED3")
+				(path "/c6f2fd82-4900-4fc0-ba31-c37e114de4ed/c4490af3-d396-4dc2-960d-5a3763c3fa5c"
+					(reference "C36")
 					(unit 1)
 				)
 			)
